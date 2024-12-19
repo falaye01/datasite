@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-container {
+     margin: 2em 1.5em; 
+     background-color: red;
+     height: 20em;
+     width: 91.5em;
+     border-radius: 10px;
+    
+  }
+  .image1, .image2, .image3 {
+    width: inherit;
+    height: 20em;
+    background-size: cover;
+    background-position: center;
+  }
+   
+  .image1{
+    width: 100%;
+    background-color: rgb(249 115 22);
+    border-radius: 10px;
+  }
+  .image2{
+    background-color: rgb(101 163 13);
+    width: 100%;
+    border-radius: 10px;
+  }
+  .image3{
+    
+    background-color: rgb(29 78 216);
+    width: 100%;
+    border-radius: 10px;
+
+  }
+
+  .slider{
+    margin-top: 11em;
+    margin-left: 2em;
+
+  }
+  .slider h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .slider p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 10px;
+    max-width: 600px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .banks{
+    display: flex;
+    gap: 2em;
+  }
+  
+  .ctn {
+    display: flex; 
+    align-items: center;
+    gap: 1em; 
+    margin-left: 7em; 
+    margin-top: 0;
+    padding: 0.5em 1em; 
+    cursor: pointer;
+    transition: border-bottom 0.3s ease, opacity 0.3s ease; 
+  }
+  
+  .ctn:hover {
+    border-bottom: 3px solid green; 
+    border-radius: 1px;
+    opacity: 1; 
+  }
+  .ctn.live {
+    border-bottom: 3px solid green; 
+    border-radius: 1px;
+    opacity: 1; 
+  }
+  
+  .ctn i {
+    font-size: 2em; 
+    color: black; 
+    opacity: 0.6; 
+    transition: color 0.3s ease, transform 0.3s ease; 
+  }
+  
+  .ctn:hover i {
+    color: green; 
+    transform: scale(1.1); 
+  }
+  
+  .ctn span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 1em; 
+    opacity: 0.6; 
+    transition: opacity 0.3s ease; 
+  }
+  
+  .ctn:hover span {
+    opacity: 1; 
+  }
+  

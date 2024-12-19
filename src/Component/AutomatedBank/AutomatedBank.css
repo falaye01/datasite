@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.automated{
+    margin-top: 2em;
+    margin-left: 1em;
+    border-radius: 10px;
+    height: 20em;
+    width: 92em;
+    background-color: blue;
+    padding: 2em 1.5em;
+}
+.transfer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+.make{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    padding-top: 1em;
+    font-weight: 500;
+}
+.acct-no{
+    padding-top: 1em;
+}
+p{
+    padding-top: 0.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

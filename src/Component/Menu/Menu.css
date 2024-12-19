@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu{
+    height: 70em;
+    width: 20em;
+    background-color: greenyellow;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20em;
+    margin-top: 0.5em;
+    width: 20px;
+    height: 30px;
+    background: greenyellow;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 999; 
+  }
+.burger {
+    width: 3em;
+    height: 2em;
+    background-color: #000;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+   .burger + .burger {
+    margin-top: 3px;
+  }
+  
+  .nav[aria-expanded="true"] .burger:nth-child(1) {
+    transform: rotate(42deg) translate(5px, 5px);
+  }
+  
+  .nav[aria-expanded="true"] .burger:nth-child(2) {
+    opacity: 0; 
+  }
+  
+  .nav[aria-expanded="true"] .burger:nth-child(3) {
+    transform: rotate(-42deg) translate(5px, -5px);
+  }
+  .home{
+    background-color: whitesmoke;
+    height: 5em;
+    width: 5em;
+  }
+  .details{
+    display: flex;
+    gap: 1em;
+    padding: 12px;
+    background-color: whitesmoke;
+    width: 18em;
+    height: 4em;
+    border-radius: 10px;
+    margin: 1em ;
+  }
+  .logo{
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    background-color: blue;
+    align-content: center;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .details p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .comrade{
+    font-weight: 600;
+  }
+  .general-container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    margin: 2em 2em;
+  }
+   ul li{
+    list-style: none;
+    margin-top: 1em;
+    margin-left: -0.8em;
+
+  }
+  .active {
+    background-color: #007bff; 
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  li{
+    height: 2.5em;
+    display: flex;
+    gap: 1em;
+    padding: 10px 10px;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  li:hover{
+    border-radius: 5px;
+    background-color: rgb(132 204 22); 
+    transition: background-color 0.3s ease, color 0.3s ease;
+  } 
+  ul li i {
+    font-size: 1.5rem;
+  }
+

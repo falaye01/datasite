@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    margin: 0px 20px;
+    height: 30em;
+    width: 96.6%;
+    border-radius: 10px;
+    background-color: rgba(159, 79, 159, 0.67);
+}
+.welcome{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    padding-top: 0.7em;
+    text-align: center;
+    font-size: 3em;
+}
+.verify{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.account-type{
+    width: 23em;
+    height: 2em;
+    background-color: rgb(48, 191, 48);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
